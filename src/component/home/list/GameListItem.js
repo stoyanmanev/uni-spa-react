@@ -8,7 +8,7 @@ export default function GameListItem(props) {
         <a href={props.res.matchviewUrl} rel="noopener" target="_blank">
           <figure className="object-fit">
             <img
-              className="game-poster"
+              className="game-poster tey"
               src={props.res.thumbnail}
               alt={props.res.title}
             />
